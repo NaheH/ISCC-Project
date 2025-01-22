@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="formulaire_connexion">
+        <input type="text" name="username" placeholder="Nom d'utilisateur" id="username" class="form-control">
+        <style>
+            #formulaire_connexion input{
+                color: green;
+            }
+
+            .form-control{
+                color: yellow;
+                background-color: orange;
+            }
+
+            @media screen and(min-width:900px) {
+                .form-control{
+                    background-color: blue;
+                }
+            }
+        </style>
+        <input type="password" name="password" placeholder="Mot de passe" id="" class="form-control">
+        <button type="submit">Valider</button>
+    </form>
+</body>
+</html>
